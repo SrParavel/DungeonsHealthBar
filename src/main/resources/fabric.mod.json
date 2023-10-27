@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "dungeons-health-bar",
+	"version": "${version}",
+	"name": "Dungeons Health Bar",
+	"description": "Minecraft Dungeons inspired health bars",
+	"authors": [
+		"Paravel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dungeons-health-bar/icon.png",
+	"environment": "client",
+	"mixins": [
+		"dungeons-health-bar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
