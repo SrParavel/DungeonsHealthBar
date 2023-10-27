@@ -94,7 +94,7 @@ public class HealthBarRenderer {
 
     private void drawRectangle(Matrix4f positionMatrix, int width, int height, float minXOffset, float maxXOffset, Color color, int light){
 
-        light = LightmapTextureManager.MAX_LIGHT_COORDINATE;
+        light = 0;
 
         float xOffset = width / 2f;
         float yOffset = height / 2f;
